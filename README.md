@@ -1,6 +1,6 @@
 # data_analysis_exercise
 
-The set of users' data used for obtaining these results is that contained in `assignment_data/sample_data`. In order to run the different Python3 scripts in this folder, it is necessary to installed the `numpy`, `matplotlib`, `pandas`, `geopandas`, `geoplot`, `contextily` and `rtree` modules.
+The set of users' data used for obtaining these results is that contained in `assignment_data/sample_data`. In order to run the different Python3 scripts in this folder, it is necessary to install the `numpy`, `matplotlib`, `pandas`, `geopandas`, `geoplot`, `contextily` and `rtree` modules.
 After having changed the permissions with `chmod +x script.py`, the scripts can be launched as `./script.py` 
 
 The results to the assignments of the exercise are the following:
@@ -11,7 +11,7 @@ The results to the assignments of the exercise are the following:
 
 ![Visits trend](https://github.com/amontoli/data_analysis_exercise/blob/main/visits.png)
 
-A weekly trend can be easly noticed in the plot: the peaks are reached on Saturdays, while on Sundays there is a sudden drop of visits. This is most likely because stores are closed on Sunday.
+A weekly trend can be easly noticed in the plot: the peaks are reached on Saturdays, while on Sundays there is a sudden drop of visits. This is most likely because stores are closed on Sunday. A notable exception is the first of January, where there still is a drop of store visits, even though it is Friday. This is probably due to the fact that stores are closed on the first day of the year.
 
 3. With the `users.py` script it is possible to visualise the GPS data of a single user as a heatmap. In `users.png` I show you as an example the GPS data of a the user with `device_id = 8704`:
 
