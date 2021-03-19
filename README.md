@@ -1,6 +1,7 @@
 # data_analysis_exercise
 
 The data used for obtaining these results is that contained in `assignment_data/sample_data`. In order to run the different Python 3 scripts in this folder, it is necessary to have installed the `numpy`, `matplotlib`, `pandas`, `geopandas`, `geoplot`, `contextily` and `rtree` modules.
+After having changed the permissions with `chmod +x script.py`, the scripts can be launched as `./script.py` 
 
 The results to the assignments of the exercise are the following:
 
