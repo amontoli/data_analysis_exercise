@@ -40,5 +40,5 @@ ax.imshow(img, extent=ext)
 gstores.to_crs(epsg=3857).plot(ax = ax, color = "red", zorder = 3)
 gstore_centroids.to_crs(epsg=3857).plot(ax = ax, color = "red", zorder = 2)
 
-plt.savefig("stores.png")
+plt.savefig("stores.png", bbox_inches = "tight")
 

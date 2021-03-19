@@ -46,5 +46,5 @@ f, ax = plt.subplots(1, figsize=(9, 9))
 plt.imshow(img, extent=ext)
 gplt.kdeplot(gsignal[gsignal.device_id == 8704], ax = ax, cmap = "Reds", shade=True, shade_lowest=False)
 
-plt.savefig("users.png")
+plt.savefig("users.png", bbox_inches = "tight")
 
